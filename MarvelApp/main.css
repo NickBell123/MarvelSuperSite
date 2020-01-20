@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {   
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    
+    text-align: center;
+}
+
+.marvel-logo{
+    max-width: 800px;
+    max-height: 800px;
+    background-image: url("assets/marvel-logo.png");
+    background-size: cover;
+    background-position: top center;
+    min-height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+main {
+    background-image: url("assets/MarvelApp-image.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.app-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+#search-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    outline: none;
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 16px 0px 16px 0px;
+    border: none;
+
+    color: #313133;
+    font-size: 20px;
+    font-size: 300;
+    transition: 0.2s;
+
+}
